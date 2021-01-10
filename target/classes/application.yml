@@ -1,0 +1,32 @@
+server:
+  port: 8800
+  
+spring:
+#  数据库配置
+  datasource:
+    username: root
+    password: als274213
+    url: jdbc:mysql://123.57.14.30:3306/mall?useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+  servlet:
+    multipart:
+#         设置上传单个文件最大大小
+      max-file-size: 150KB
+      
+    
+#  thymeleaf:
+#    prefix: classpath:/static/
+#    suffix: .html
+    
+mybatis-plus:
+#  设置类型转换器包所在位置
+  type-handlers-package: com.als.mall.handler.typehandler
+    
+
+#  配置日志    
+logging:
+  level:
+    com.als.mall: DEBUG
+    
+    

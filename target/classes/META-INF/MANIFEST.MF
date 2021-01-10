@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: mall
+Implementation-Version: 0.2.1-SNAPSHOT
+Built-By: asus
+Implementation-Vendor-Id: com.als
+Build-Jdk: 1.8.0_221
+Implementation-URL: https://spring.io/projects/spring-boot/mmall
+Created-By: Maven Integration for Eclipse
+
